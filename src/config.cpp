@@ -19,7 +19,7 @@ void usage_and_exit(const std::string& program_name) {
   std::cout << "\t-s: Print statistics during and after the search for solutions." << std::endl;
   std::cout << "\t-v: Print log messages (verbose solving) to the standard error stream." << std::endl;
   std::cout << "\t-ast: Print the AST of the model (useful to debug)." << std::endl;
-  std::cout << "\t-p 48: On CPU, run with 48 parallel threads. On GPU, equivalent to `-or 48`." << std::endl;
+  std::cout << "\t-p 48: On CPU, multithreading is not yet implemented. On GPU, equivalent to `-or 48`." << std::endl;
   std::cout << "\t-arch <cpu|gpu|hybrid|barebones>: Choose the architecture on which the problem will be solved." << std::endl;
   std::cout << "\t-fp <ac1|wac1>: Choose the fixpoint strategy (default: ac1 on CPU, wac1 on GPU):" << std::endl;
   std::cout << "\t\t ac1: All propagators are executed in parallel at each iteration." << std::endl;

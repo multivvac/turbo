@@ -73,7 +73,7 @@ struct Configuration {
     timeout_ms(0),
     or_nodes(0),
     subproblems_power(-1),
-    subproblems_factor(30),
+    subproblems_factor(300),
     stack_kb(
       #ifdef TURBO_IPC_ABSTRACT_DOMAIN
         32
